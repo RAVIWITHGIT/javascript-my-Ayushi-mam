@@ -48,3 +48,47 @@
 
 
 // }while(true)
+
+
+// ------------------------------ for in loop
+// let myArray = [1,2,3,4,5,6,7,8,9]
+// let odd = []
+// let even = []
+// for(let i in myArray){
+//     if(myArray[i]%2==0){
+//         even.push(myArray[i])
+
+//     }
+//     else{
+//         odd.push(myArray[i])
+//     }
+
+// }
+
+// console.log(odd)
+// console.log(even)
+
+
+
+// -------------------------------------for in loop
+
+// let myobj = {
+//     myArray:[1,2,3,4,5,6,7,8,9],
+//     odd:[],
+//     even:[]
+// }
+
+// let newArray = myobj.myArray
+// for(let i in newArray){
+//     if(newArray[i]%2==0){
+//         myobj.even.push(newArray[i])
+//     }
+//     else{
+//         myobj.odd.push(newArray[i])
+
+//     }
+// }
+
+// console.log(myobj)
+
+
