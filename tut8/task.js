@@ -1,15 +1,13 @@
 // let even = []
 // let odd = []
 // let myArray = [2,3,4,66,23,90,34,55,79,81,24,34,51]
-// for (let i = 0; i < myArray.length; i++) {
-//     console.log(myArray[i])
-//     if(myArray[i]%2==0){
-//         even.push(myArray[i])
+// for(let i of myArray){
+//     if(i%2==0){
+//         even.push(i)
 //     }
 //     else{
-//         odd.push(myArray[i])
+//         odd.push(i)
 //     }
-    
 // }
 
 // console.log(even)
@@ -38,9 +36,15 @@
 // let getValue = prompt('enter your name')
 // let userName = 'ravi'
 // do{
-//     let getValue = prompt('sorry again enter your name')
 //     if(getValue==userName){
 //         break
+
 //     }
+//     else{
+//         getValue = prompt('sorry again enter your name')
+
+//     }
+//     console.log(getValue)
+
 
 // }while(true)
