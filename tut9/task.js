@@ -12,6 +12,7 @@
 // }
 // console.log(myobj)
 
+
 // let repeat = 0
 // let value;
 // for(let i in myobj){
@@ -47,3 +48,12 @@
 
 // }
 // afterrem(1)
+
+// -------------------------------------------------------
+// let month = ['january','february','march','april','may',"jun",'july','August','September','October','November','December']
+
+// let getvalue = month[0]
+// month[0] = month[1]
+// month[1] = getvalue
+// console.log(month)
+
