@@ -26,6 +26,9 @@
 // console.log(value)
 // console.log(repeat)
 
+
+
+
 // ------------------------------- swap arr1 value to arr2 and arr2 value to arr1
 // let arr1 = ['ravi','shiv','ram','shyam']
 // let arr2 = [1,2,3,4,5,6]
