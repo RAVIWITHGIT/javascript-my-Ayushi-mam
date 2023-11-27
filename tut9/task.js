@@ -13,8 +13,9 @@
 // console.log(myobj)
 
 
-// let repeat = 0
-// let value;
+
+// let repeat = 0 
+// let value;  
 // for(let i in myobj){
 //     if(myobj[i]>repeat){
 //         repeat = myobj[i]
