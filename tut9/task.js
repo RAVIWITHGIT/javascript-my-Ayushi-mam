@@ -12,17 +12,17 @@
 // }
 // console.log(myobj)
 
-// let maxcount = 0
-// let element;
+// let repeat = 0
+// let value;
 // for(let i in myobj){
-//     if(myobj[i]>maxcount){
-//         maxcount = myobj[i]
-//         element = i
+//     if(myobj[i]>repeat){
+//         repeat = myobj[i]
+//         value = i
 //     }
 
 // }
-// console.log(element)
-// console.log(maxcount)
+// console.log(value)
+// console.log(repeat)
 
 // ------------------------------- swap arr1 value to arr2 and arr2 value to arr1
 // let arr1 = ['ravi','shiv','ram','shyam']
