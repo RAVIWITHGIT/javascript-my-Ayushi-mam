@@ -1,5 +1,5 @@
 // ---------------------------find maximum time element present
-// let myArray = [1, 2, 3,7, 2, 4, 3,7, 5,5,5, 6, 4,7, 7,7,5, 1]
+let myArray = [1, 2, 3,7, 2, 4, 3,7, 5,5,5, 6, 4,7, 7,7,5, 1]
 // let myobj = {}
 // for (let i = 0; i < myArray.length; i++) {
 //     let element = myArray[i]
@@ -8,9 +8,12 @@
 //     }else{
 //         myobj[element] = 1
 //     }
+
+
     
 // }
 // console.log(myobj)
+
 
 
 
