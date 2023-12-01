@@ -3,11 +3,12 @@
 //     'name':'ravi',
 //     'roll':6,
 //     'xyz': function name() {
-//         console.log('hey ravi')
+//         console.log(`${person.name}`)
         
 //     }
 // }
 
+// console.log(person)
 // // let getfun = person['xyz']()
 // let getfun = person.xyz()
 
