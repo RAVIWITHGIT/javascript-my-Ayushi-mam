@@ -12,4 +12,4 @@ function isprime(num){
     }
 }
     
-console.log(isprime(93))
+console.log(isprime(5))

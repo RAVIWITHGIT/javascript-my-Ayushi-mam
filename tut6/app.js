@@ -47,3 +47,4 @@ const myobj = {
 
 // const {a,...x} = myobj
 // console.log(a,x)
+
