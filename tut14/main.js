@@ -89,3 +89,35 @@ let userDetails2 = {
 // info.call(userDetails4,'bassi')
 
 
+
+// -------------------------- apply() method --------------------------------------------------------
+
+/*
+1. apply() method same work as call() method
+*/
+// function info(){
+//     console.log(`my name is ${this.name}`)
+// }
+
+// let fuser = {
+//     name:'ravi lakshakar'
+// }
+// info.apply(fuser)
+
+
+/*
+2. if we want use multiple argument using call() method then we spreate multiple argument using comma
+3. when we use apply method and want give multiple argument then we write argument in array and sand array as argument
+*/
+
+// function info(city,gender){
+//     console.log(`name is ${this.name} belong to ${city} and gender is ${gender} `)
+// }
+
+// let fuser = {
+//     name:'ravi lakshakar'
+// }
+// console.log(fuser)
+// info.apply(fuser,['bassi','male'])
+
+
