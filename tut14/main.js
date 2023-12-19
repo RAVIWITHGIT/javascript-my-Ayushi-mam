@@ -1,6 +1,6 @@
 // -------------------------- call() method ---------------------------------------------------------
 
-// call method help to use function in ohter code without make new function in other code
+// call method help to use function in other code without make new function in other code
 
 // -------------------******* without using call()
 
