@@ -55,4 +55,89 @@
 // console.log(result)
 
 
+/* ----------------------------------*******************************************************
+2. test() - true and false
+
+*/
+
+// let reg = /ravi/
+// let s = "this is greate code with ravi and also ravi bhai"
+
+// let result = reg.test(s);
+// console.log(result)
+
+
+// ----------------- global search
+// let reg = /ravi/g
+// let s = "this is greate code with ravi and also Ravi bhai"
+
+// let result = reg.test(s);
+// console.log(result)
+
+// ----------------- global search with case insensetive
+// let reg = /ravi/gi
+// let s = "this is greate code with RaVi and also Ravi bhai"
+
+// let result = reg.test(s);
+// console.log(result)
+
+
+/* ------------------------------------------*****************************************************
+3. match() -- It will return an array of result or null
+    I. upper we see when we use regularExpression --> reg.method(string)
+    II. but here  we write in reverse  -->  string.method(reg)
+*/
+
+// let reg1 = /ravi/
+// let str1 = "this is greate code with ravi and also ravi bhai"
+
+// let result1 = str1.match(reg1)
+// console.log(result1)
+
+
+// ------ global search
+// let reg = /ravi/g
+// let str = "this is greate code with ravi and also ravi bhai"
+
+// let result = str.match(reg)
+// console.log(result)
+
+// ------ global search with case insensetive
+// let reg = /ravi/gi
+// let str = "this is greate code with RaVi and also Ravi bhai"
+
+// let result = str.match(reg)
+// console.log(result)
+
+
+
+/* ---------------------------------------**********************************************
+4. Search() -->  Returns index of first match else -1
+ */
+
+// let reg = /ravi/
+// let str = "this is greate code with ravi and also ravi bhai"
+
+// let result = str.search(reg)
+// console.log(result)
+
+
+/* --------------------------------------************************************************
+5.  replace() -->  Returns new replaced string with all the replacements (if no flag is given, first match will be replaced)
+
+*/
+// let reg = /ravi/
+// let str = "this is greate code with ravi and also ravi bhai"
+
+// let result = str.replace(reg,"shiv")
+// console.log(result)
+
+
+// ----------- global replace
+// let reg = /ravi/g
+// let str = "this is greate code with ravi and also ravi bhai"
+
+// let result = str.replace(reg,"shiv")
+// console.log(result)
+
 
