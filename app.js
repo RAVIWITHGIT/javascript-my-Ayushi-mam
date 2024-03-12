@@ -177,4 +177,86 @@ here we discuss about Metacharctor symbol in regular expression
 // }
 
 
-console.log('hello')
+// ----------------------------------------*********************************************************
+/*
+5. ? symbol --> mean character is optional
+
+*/
+
+
+// let regex = /ra?vi/
+
+// let str = "hello rvi ,how are you ravi"
+
+// let result = regex.exec(str)
+// console.log(result)
+
+// if(regex.test(str)){
+//    console.log(`the string ${str} natcg tge exoressuib ${regex.source}`)
+// }else{
+//    console.log("not match string")
+// }
+
+
+// -------------------
+// let regex = /ra?vi/
+
+// let str = "hello rfvi ,how are you ravi"
+
+// let result = regex.exec(str)
+// console.log(result)
+
+// if(regex.test(str)){
+//    console.log(`the string ${str} natcg tge exoressuib ${regex.source}`)
+// }else{
+//    console.log("not match string")
+// }
+
+
+// ---------------------
+// let regex = /ra?vi/
+
+// let str = "hello rtvi ,how are you rtvi"
+
+// let result = regex.exec(str)
+// console.log(result)
+
+// if(regex.test(str)){
+//    console.log(`the string ${str} natcg tge exoressuib ${regex.source}`)
+// }else{
+//    console.log("not match string")
+// }
+
+
+// --------------------------------------------------***********************************************
+/*
+6. if you want match any symbol then use backslacs before symbol
+
+*/
+// let regex = /r\*vi/
+
+// let str = "hello r*vi ,how are you ravi"
+
+// let result = regex.exec(str)
+// console.log(result)
+
+// if(regex.test(str)){
+//    console.log(`the string ${str} natcg tge exoressuib ${regex.source}`)
+// }else{
+//    console.log("not match string")
+// }
+
+
+// --------------------------------------
+// let regex = /r\?vi/
+
+// let str = "hello r$vi ,how are you r?vi"
+
+// let result = regex.exec(str)
+// console.log(result)
+
+// if(regex.test(str)){
+//    console.log(`the string ${str} natcg tge exoressuib ${regex.source}`)
+// }else{
+//    console.log("not match string")
+// }
